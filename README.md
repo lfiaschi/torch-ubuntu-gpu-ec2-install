@@ -68,6 +68,7 @@ sudo pip install ipython
 sudo pip install tornado --upgrade
 sudo pip install jsonschema
 sudo pip install terminado
+sudo apt-get install libssl-dev
 
 # Finally install itorch.
 sudo luarocks install itorch
