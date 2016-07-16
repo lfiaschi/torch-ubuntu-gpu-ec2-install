@@ -51,6 +51,7 @@ cd ~
 cuda-install-samples-7.0.sh .
 cd NVIDIA_CUDA-7.0_Samples/1_Utilities/deviceQuery/
 make
+apt-get install linux-headers-$(uname -r)
 ./deviceQuery
 
 # Run the torche easy one-line install. This will install the cuda accelerated
